@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <Style>
+        html {
+            background-color: black;
+            width 100;
+            height: 100;
+            right: 100vh;
+            font-family: Arial, Helvetica, sans-serif, white;
+        }
+        
+        #menu {
+            /* position to top right*/
+            position: fixed;
+            top: 10px;
+            right: 50px;
+            color: white;
+        }
+        
+        li {
+            display: inline-block;
+            margin-left: 20px;
+        }
+        
+        #main {
+            color: white;
+            position: fixed;
+            top: 40vh;
+            left: 50vw;
+        }
+        
+        #main h1 {
+            /*1em(M) means 16px*/
+            font-size: 3em;
+        }
+        
+        .middle {
+            font-size: 2em;
+            margin-right: 30%;
+        }
+        
+        .button {
+            /* Change the position based on its positioned parents */
+            position: absolute;
+            right: 20px;
+            width: 415px;
+            height: 40px;
+            text-align: center;
+            line-height: 30px;
+            font-size: 1em;
+            stop-color: #CD1D1D;
+            padding: 80px;
+            color: white;
+            border-radius: 10px;
+            /* border: 1px solid red; */
+        }
+        
+        #header {
+            color: white;
+            position: fixed;
+            top: 0;
+            left: 30px;
+        }
+        
+        #Swans {
+            /* for the location */
+            position: ;
+            bottom: 0;
+            right: 0;
+            /* dimension for the image */
+            width: 720px;
+            height: 70vh;
+            /* background image(uniform resource locator) */
+            background: url(./images/Bert_Azak_RL_07_L.jpg);
+            background-size: cover;
+        }
+    </Style>
+</head>
+
+<body>
+    <div id="header">
+        <h1>Ganada Made Nisga'a Art</h1>
+    </div>
+    <div id="menu">
+        <!-- unordered list is the father of lists-->
+        <ul>
+            <!-- list (kids)-->
+            <li>Home</li>
+            <li>Portfolios</li>
+            <li>Contacts</li>
+        </ul>
+    </div>
+</body>
+
+</html>
